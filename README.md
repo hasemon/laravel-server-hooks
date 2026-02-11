@@ -22,13 +22,13 @@ To set up shared hook, enter command bellow in terminal
 **Warning: Use with your own risk**
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/main/post-receive-shared > .git/hooks/post-receive
+curl -fsSL https://raw.githubusercontent.com/hasemon/laravel-server-hooks/main/post-receive-shared > .git/hooks/post-receive
 ```
 
 To set up this hook, enter command bellow in terminal
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/main/post-receive > .git/hooks/post-receive
+curl -fsSL https://raw.githubusercontent.com/hasemon/laravel-server-hooks/main/post-receive > .git/hooks/post-receive
 ```
 
 # NEW : Set UP fresh VPS with deployment hook [here](vps.md)
@@ -38,17 +38,17 @@ curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/
 This is not a hook setup, just a helpful script to setup laravel app
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/main/initial_setup.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hasemon/laravel-server-hooks/main/initial_setup.sh)"
 ```
 
 ### Customize php for setup 
 
 ```sh
-export PHP=/usr/local/bin/other-php && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/main/initial_setup.sh)"
+export PHP=/usr/local/bin/other-php && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hasemon/laravel-server-hooks/main/initial_setup.sh)"
 ```
 
 ### Customize composer for setup 
 
 ```sh
-export COMPOSER_BIN=/usr/local/bin/composer && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/HazzazBinFaiz/laravel-server-hooks/main/initial_setup.sh)"
+export COMPOSER_BIN=/usr/local/bin/composer && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/hasemon/laravel-server-hooks/main/initial_setup.sh)"
 ```
